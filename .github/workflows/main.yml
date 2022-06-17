@@ -14,7 +14,7 @@ env:
   AZURE_FUNCTIONAPP_NAME: ccitestfunctionapp      # set this to your function app name on Azure
   POM_XML_DIRECTORY: '.'                     # set this to the directory which contains pom.xml file
   JAVA_VERSION: '1.8'                      # set this to the dotnet version to use
-  POM_FUNCTIONAPP_NAME: 
+  POM_FUNCTIONAPP_NAME: HttpExample
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
